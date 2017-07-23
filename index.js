@@ -25,6 +25,7 @@ var api = new ParseServer({
 
 
 var dashboard = new ParseDashboard({
+  "allowInsecureHTTP": true,
   "apps": [
     {
       "serverURL": "https://tomadj.herokuapp.com/parse",
